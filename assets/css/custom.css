@@ -1,0 +1,63 @@
+.logo h1 {
+  color: white;
+}
+
+.logo img {
+  max-width: 100%;
+  width: 13%;
+  margin-top: -20px;
+}
+
+.background-full-dark {
+  background-color: #000;
+}
+
+p.trip-plan {
+  color: #ffffffb5;
+}
+
+h3.time {
+  color: #ffffffe3;
+}
+
+.content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.features {
+  height: 100%;
+  position: absolute;
+  top: 70%;
+  z-index: 1000;
+  text-align: center;
+  width: 100%;
+}
+
+.features p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo img {
+    max-width: 100%;
+    width: 40%;
+    margin-top: -7%;
+  }
+}
